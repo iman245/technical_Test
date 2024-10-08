@@ -1,0 +1,12 @@
+.shopContainer{
+    width: 90%;
+    padding: 5%;
+}
+.centred{
+    text-align: center;
+    align-items: center;
+}
+.shopProducts{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,75 @@
+.NavbarContainer{
+    width:96%;
+    padding: 0.5% 2%;
+    background-color: rgba(255, 251, 245, 1);
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.NavbarContent{
+    width:90%;
+    text-align: center;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:center;
+}
+.identityImg{
+    width:40px;
+    height:40px;
+    margin:0px;
+    border: 2px solid black;
+    border-radius:5px;
+}
+.panierImg{
+    width:60px;
+}
+.navbar-sepcialSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-items{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+}
+.nav-items:hover{
+    color: rgba(142, 102, 5, 1);
+    border-bottom: 2px solid rgba(142, 102, 5, 1);
+    padding: 7px 0px;
+}
+.nbProducts{
+    color: white;
+    padding: 5px 11px;
+    background-color: rgb(245, 209, 5);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 4;
+    right: 0px;
+    box-shadow: 0 0 8px rgb(245, 209, 5);
+}
+.nav-panier{
+    margin-right: 40px;
+    position: relative;
+}
+.Nav-coll{
+    list-style-type: none;
+    padding: 13px 0px;
+    color: white;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        cursor: pointer;
+}
+.Nav-coll:hover{
+    background-color: rgba(142, 102, 5, 1);
+}
+.NavbarResponsContent{
+    background-color:rgba(255, 251, 245, 1);
+    width: 100%;
+}
+.navbarRespHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

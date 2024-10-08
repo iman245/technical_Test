@@ -1,0 +1,64 @@
+.FooterContainer{
+    width: 84%;
+    padding: 1% 8%;
+    background-color: rgba(255, 251, 245, 1);
+}
+.FooterContent1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    padding: 30px 0px ;
+}
+.FooterSection1{
+    display: flex;
+    flex-direction: column;
+}
+.logoImg{
+    width: 150px;
+    margin: 0;
+}
+.footer-item{
+    text-decoration: none;
+    color: black;
+    margin: 7px 0px;
+}
+.footerIcon{
+    color: rgba(142, 102, 5, 1);
+    margin-right: 10px;
+}
+.FooterContent2{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid rgba(217, 217, 217, 1);
+    color: rgba(133, 133, 133, 1);
+}
+.FooterSousCont{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+}
+.footerTitre{
+    font-family: 'Klaristha';
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+    .FooterContent1{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 2;
+        width: 100%;
+        padding: 30px 0px ;
+    }
+    .FooterContent2{
+        font-size: 12px;
+    }
+    .FooterSousCont{
+        width: 40%;
+    }
+}

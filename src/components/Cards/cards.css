@@ -1,0 +1,68 @@
+.cardFullContainer{
+    margin: 10px;
+}
+.imgCard{
+    width: 280px;
+    height: 280px;
+    border-radius: 16px;
+}
+.cardDescription{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.cardPrice{
+    font-family: 'Klaristha';
+    font-weight: 900;
+    font-size: 20px;
+}
+.imgCardSpecial{
+    width: 300px;
+    height: 310px;
+    border-radius: 16px;
+}
+.cardsImgContainer{
+    position: relative;
+    width: 300px;
+    height: 340px;
+}
+.imgCardSpecial2{
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    width: 140px;
+    height: 140px;
+    border-radius: 4px;
+    background-color: rgba(255, 226, 151, 1);
+    box-shadow: -10px -10px rgba(177, 215, 180, 1);
+}
+.imgCardSpecial2Img{
+    width: 92%;
+    height: 92%;
+    margin: 4%;
+    object-fit: contain;
+}
+.cardSpecialContainer{
+    margin: 20px;
+    width: 300px;
+}
+.cardProductName{
+    font-family: 'Klaristha';
+    font-weight: bold;
+    font-size: 25px;
+}
+.cardSpecialSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardButton{
+    padding: 10px 25px;
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+

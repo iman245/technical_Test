@@ -1,0 +1,98 @@
+.ProductContainer{
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 54% 46%;
+    color: #323232;
+}
+.ProductImage{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.productGlobalImg{
+    width: 500px;
+    height: 300px;
+}
+.productOtherImgCont{
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.productOtherImg{
+    width: 150px;
+    height: 150px;
+}
+.ProductDescription{
+    text-align: left;
+}
+.ProductTitle{
+    font-family: 'Klaristha', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.petitDetailPro{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    text-align: left;
+    justify-content: space-between;
+    font-family: 'Poppins';
+}
+.matiereProd{
+    font-size: 20px;
+}
+.descriptionProduit{
+    font-size: 14px;
+}
+.PrixProd{
+    font-family: 'Klaristha', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+}
+.truckIcon, .rotateIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.productBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.ProductBtn{
+    color: white;
+    background-color: #323232;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.cartIcon{
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+}
+.heartIcon{
+    width: 20px;
+    height: 20px;
+    color: #323232;
+}
+.btnFavorisProd{
+    cursor: pointer;
+    padding: 9px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #323232;
+    margin-left: 15px ;
+}
+.productLivraison, .productReturn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
